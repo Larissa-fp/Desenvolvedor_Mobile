@@ -26,4 +26,21 @@ void main() {
     print("Aprovado!");
   else
     print("Reprovado!");
+
+// Exemplo da utilização do laço for.
+int i;
+     
+for (i=0; i<10; i++){
+  print('Olá, $i');
+}
+  
+  int calculo;
+// Função de soma
+  int soma(a,b){
+    calculo = a + b;
+    return calculo;
+  }
+    
+print(soma(10,20)); 
+
 }

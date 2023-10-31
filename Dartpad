@@ -1,0 +1,29 @@
+void main() {
+  // Exibindo uma mensagem de olá, mundo!!
+  /*
+  print("Olá, Mundo!");
+  */
+  /*
+  int idade  = 15;
+  String nome = 'Larissa';
+  print(idade);
+  
+  double n1 = 5.7;
+  double n2 = 8.2;
+  double total = n1 * n2;
+  print(total);
+  */
+  
+  // Criar um programa que leia duas notas e calcule a média
+  // Se esta aprovado quando o resultado for acima de 7 e reprovado
+  // quando o valor ficar abaixo de 7
+  
+  double nota1 = 4;
+  double nota2 = 8;
+  double media = (nota1 + nota2) / 2;
+
+  if (media >= 7)
+    print("Aprovado!");
+  else
+    print("Reprovado!");
+}

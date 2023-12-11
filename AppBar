@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Minha App Bar'),
+          backgroundColor: Colors.blue, // Cor de fundo da AppBar
+          actions: <Widget>[
+            IconButton(
+              icon: Icon(Icons.search),
+              onPressed: () {
+                // Adicione ação para o ícone de pesquisa aqui
+              },
+            ),
+            IconButton(
+              icon: Icon(Icons.settings),
+              onPressed: () {
+                // Adicione ação para o ícone de configurações aqui
+              },
+            ),
+          ],
+        ),
+        body: Center(
+          child: Text('Conteúdo da aplicação aqui'),
+        ),
+      ),
+    );
+  }
+}
